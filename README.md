@@ -1,6 +1,8 @@
 # Baekjoon-Algorithm
 
 ## [알고리즘 기초](https://github.com/brillantescene/Baekjoon-Algorithm/tree/master/Algorithm_Basic)
+<details markdown="1">
+<summary>### 1. 알고리즘과 입/출력</summary>
 
 ### 1. 알고리즘과 입/출력
 * [Hello World](https://github.com/brillantescene/Baekjoon-Algorithm/blob/master/Algorithm_Basic/No_2557.py)
@@ -16,6 +18,7 @@
 * [그대로 출력하기 2](https://github.com/brillantescene/Baekjoon-Algorithm/blob/master/Algorithm_Basic/No_11719.py)
 * [숫자의 합](https://github.com/brillantescene/Baekjoon-Algorithm/blob/master/Algorithm_Basic/No_11720.py)
 * [열 개씩 끊어 출력하기](https://github.com/brillantescene/Baekjoon-Algorithm/blob/master/Algorithm_Basic/No_11721.py)
+</details>
 ### 2. 자료구조 1
 * 스택
 * 괄호
