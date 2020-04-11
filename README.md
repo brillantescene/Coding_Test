@@ -12,10 +12,10 @@
 * [A+B - 6](https://github.com/brillantescene/Baekjoon-Algorithm/blob/master/Algorithm_Basic/No_10953.py)
 * [A+B - 7](https://github.com/brillantescene/Baekjoon-Algorithm/blob/master/Algorithm_Basic/No_11021.py)
 * [A+B - 8](https://github.com/brillantescene/Baekjoon-Algorithm/blob/master/Algorithm_Basic/No_11022.py)
-* 그대로 출력하기
-* 그대로 출력하기 2
-* 숫자의 합
-* 열 개씩 끊어 출력하기
+* [그대로 출력하기](https://github.com/brillantescene/Baekjoon-Algorithm/blob/master/Algorithm_Basic/No_11718.py)
+* [그대로 출력하기 2](https://github.com/brillantescene/Baekjoon-Algorithm/blob/master/Algorithm_Basic/No_11719.py)
+* [숫자의 합](https://github.com/brillantescene/Baekjoon-Algorithm/blob/master/Algorithm_Basic/No_11720.py)
+* [열 개씩 끊어 출력하기](https://github.com/brillantescene/Baekjoon-Algorithm/blob/master/Algorithm_Basic/No_11721.py)
 ### 2. 자료구조 1
 * 스택
 * 괄호
