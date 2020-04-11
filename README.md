@@ -2,7 +2,7 @@
 
 ## [알고리즘 기초](https://github.com/brillantescene/Baekjoon-Algorithm/tree/master/Algorithm_Basic)
 <details markdown="1">
-<summary>### 1. 알고리즘과 입/출력</summary>
+<summary>1. 알고리즘과 입/출력</summary>
 
 ### 1. 알고리즘과 입/출력
 * [Hello World](https://github.com/brillantescene/Baekjoon-Algorithm/blob/master/Algorithm_Basic/No_2557.py)
@@ -19,6 +19,9 @@
 * [숫자의 합](https://github.com/brillantescene/Baekjoon-Algorithm/blob/master/Algorithm_Basic/No_11720.py)
 * [열 개씩 끊어 출력하기](https://github.com/brillantescene/Baekjoon-Algorithm/blob/master/Algorithm_Basic/No_11721.py)
 </details>
+<details markdown="1">
+<summary>2. 자료구조 1</summary>
+
 ### 2. 자료구조 1
 * 스택
 * 괄호
@@ -34,6 +37,10 @@
 * ROT13
 * 네 수
 * 접미사 배열
+</details>
+<details markdown="1">
+<summary>3. 다이나믹 프로그래밍 1</summary>
+
 ### 3. 다이나믹 프로그래밍 1
 * 1로 만들기
 * 2×n 타일링
@@ -56,6 +63,10 @@
 * 파도반 수열
 * 합분해
 * 암호코드
+</details>
+<details markdown="1">
+<summary>4. 수학 1</summary>
+
 ### 4. 수학 1
 * 나머지
 * 최대공약수와 최소공배수
@@ -74,6 +85,10 @@
 * 팩토리얼
 * 팩토리얼 0의 개수
 * 조합 0의 개수
+</details>
+<details markdown="1">
+<summary>5. 정렬</summary>
+
 ### 5. 정렬
 * 수 정렬하기 2
 * 좌표 정렬하기
@@ -84,6 +99,10 @@
 * 카드
 * K번째 수
 * 버블 소트
+</details>
+<details markdown="1">
+<summary>6. 그래프 1</summary>
+
 ### 6. 그래프 1
 * DFS와 BFS
 * 연결 요소의 개수
@@ -96,8 +115,13 @@
 * 미로 탐색
 * 토마토
 * 다리 만들기
+</details>
+<details markdown="1">
+<summary>7. 트리 1</summary>
+
 ### 7. 트리 1
 * 트리 순회
 * 트리의 부모 찾기
 * 트리의 지름
 * 트리의 지름
+</details>
