@@ -23,7 +23,7 @@
 <summary>2. 자료구조 1</summary>
 
 ### 2. 자료구조 1
-* 스택
+* [스택](https://github.com/brillantescene/Baekjoon-Algorithm/blob/master/Algorithm_Basic/No_10828.py)
 * 괄호
 * 쇠막대기
 * 에디터
