@@ -24,8 +24,8 @@
 
 ### 2. 자료구조 1
 * [스택](https://github.com/brillantescene/Baekjoon-Algorithm/blob/master/Algorithm_Basic/No_10828.py)
-* 괄호
-* 쇠막대기
+* [괄호](https://github.com/brillantescene/Baekjoon-Algorithm/blob/master/Algorithm_Basic/No_9012_stackO.py)
+* [쇠막대기](https://github.com/brillantescene/Baekjoon-Algorithm/commit/b23717aee7afe8e56d8b017f97acfe70e0795e98)
 * 에디터
 * 큐
 * 조세퍼스 문제
