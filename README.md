@@ -29,7 +29,7 @@
 * [에디터](https://github.com/brillantescene/Baekjoon-Algorithm/blob/master/Algorithm_Basic/No_1406.py) //시간초과
 * [큐](https://github.com/brillantescene/Baekjoon-Algorithm/blob/master/Algorithm_Basic/No_10845.py)
 * [조세퍼스 문제](https://github.com/brillantescene/Baekjoon-Algorithm/blob/master/Algorithm_Basic/No_1158.py) //시간초과
-* 덱
+* [덱](https://github.com/brillantescene/Baekjoon-Algorithm/blob/master/Algorithm_Basic/No_10866.py)
 * 알파벳 개수
 * 알파벳 찾기
 * 문자열 분석
