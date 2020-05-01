@@ -28,7 +28,7 @@
 * [쇠막대기](https://github.com/brillantescene/Baekjoon-Algorithm/commit/b23717aee7afe8e56d8b017f97acfe70e0795e98)
 * [에디터](https://github.com/brillantescene/Baekjoon-Algorithm/blob/master/Algorithm_Basic/No_1406.py) //시간초과
 * [큐](https://github.com/brillantescene/Baekjoon-Algorithm/blob/master/Algorithm_Basic/No_10845.py)
-* 조세퍼스 문제
+* [조세퍼스 문제](https://github.com/brillantescene/Baekjoon-Algorithm/blob/master/Algorithm_Basic/No_1158.py) //시간초과
 * 덱
 * 알파벳 개수
 * 알파벳 찾기
