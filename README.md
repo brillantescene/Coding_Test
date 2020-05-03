@@ -31,7 +31,7 @@
 * [조세퍼스 문제](https://github.com/brillantescene/Baekjoon-Algorithm/blob/master/Algorithm_Basic/No_1158.py) //시간초과
 * [덱](https://github.com/brillantescene/Baekjoon-Algorithm/blob/master/Algorithm_Basic/No_10866.py)
 * [알파벳 개수](https://github.com/brillantescene/Baekjoon-Algorithm/blob/master/Algorithm_Basic/No_10808.py)
-* 알파벳 찾기
+* [알파벳 찾기](https://github.com/brillantescene/Baekjoon-Algorithm/blob/master/Algorithm_Basic/No_10809.py)
 * 문자열 분석
 * 단어 길이 재기
 * ROT13
