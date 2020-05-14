@@ -32,11 +32,11 @@
 * [덱](https://github.com/brillantescene/Baekjoon-Algorithm/blob/master/Algorithm_Basic/No_10866.py)
 * [알파벳 개수](https://github.com/brillantescene/Baekjoon-Algorithm/blob/master/Algorithm_Basic/No_10808.py)
 * [알파벳 찾기](https://github.com/brillantescene/Baekjoon-Algorithm/blob/master/Algorithm_Basic/No_10809.py)
-* 문자열 분석
-* 단어 길이 재기
-* ROT13
-* 네 수
-* 접미사 배열
+* [문자열 분석](https://github.com/brillantescene/Baekjoon-Algorithm/blob/master/Algorithm_Basic/No_10820.py)
+* [단어 길이 재기](https://github.com/brillantescene/Baekjoon-Algorithm/blob/master/Algorithm_Basic/No_2743.py)
+* [ROT13](https://github.com/brillantescene/Baekjoon-Algorithm/blob/master/Algorithm_Basic/No_11655.py)
+* [네 수](https://github.com/brillantescene/Baekjoon-Algorithm/blob/master/Algorithm_Basic/No_10824.py)
+* [접미사 배열](https://github.com/brillantescene/Baekjoon-Algorithm/blob/master/Algorithm_Basic/No_11656.py)
 </details>
 <details markdown="1">
 <summary>3. 다이나믹 프로그래밍 1</summary>
