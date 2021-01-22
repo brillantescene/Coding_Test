@@ -1,4 +1,4 @@
-# Baekjoon-Algorithm
+# 👊 코테 뿌수기
 
 ## [알고리즘 기초](https://github.com/brillantescene/Baekjoon-Algorithm/tree/master/Algorithm_Basic)
 <details markdown="1">
