@@ -1,4 +1,4 @@
-#
+# 210128 THU
 # 11651
 # import sys
 # n = int(input())
@@ -41,12 +41,4 @@
 # for i in sorted(nums):
 #     print(i)
 # 메모리 초과 떠부렀삼
-# sys로 변경
-import sys
-n = int(input())
-nums = [0]*10001
-for i in range(n):
-    nums[i] = int(sys.stdin.readline())
-for i in sorted(nums):
-    if i != 0:
-        print(i)
+# 내일 다시 해야즤
