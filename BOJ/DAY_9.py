@@ -49,4 +49,4 @@ alpha = {i: 0 for i in 'abcdefghijklmnopqrstuvwxyz'}
 for i in word:
     alpha[i] += 1
 for i in alpha.keys():
-    print(alpha[i]), end = ' ')
+    print(alpha[i], end=' ')
