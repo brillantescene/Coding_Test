@@ -21,6 +21,7 @@
 # result.reverse()
 # print(''.join(map(str, result)))
 
+# str 사용하기
 import sys
 n, b = map(int, sys.stdin.readline().split())
 res = ''
