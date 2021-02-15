@@ -27,3 +27,4 @@ while True:
                 continue
 res.sort()
 print('\n'.join(map(str, res)))
+# 시간 초과. 다음에 다시 할 것!
