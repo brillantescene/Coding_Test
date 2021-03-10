@@ -6,11 +6,10 @@ import sys
 sys.stdin = open('Inflearn/in1.txt', 'r')
 
 a = input()
-num = ''
+num = 0
 for x in a:
-    if x.isdigit():
-        num += x
-num = int(num)
+    if x.isdecimal():  # isdecimal은 0~9까지
+        num = num*10 + int(x)
 cnt = 2
 for i in range(2, num):
     if num % i == 0:
