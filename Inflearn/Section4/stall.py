@@ -1,19 +1,26 @@
 import sys
-sys.stdin = open('Inflearn/in2.txt', 'r')
+sys.stdin = open('Inflearn/in5.txt', 'r')
 
 
 def Check(d):
     cnt = 1
-    start = 1
+    '''
+    start = 0
     while True:
-        for i in range(start, n):
-            tmp = s[i] - s[i-1]
-            if tmp >= 5:
+        for i in range(start+1, n):
+            tmp = s[i] - s[start]
+            if tmp >= d:
                 cnt += 1
-                start = i+1
+                start = i
                 break
         else:
             break
+    '''
+    ep = s[0]
+    for i in range(1, n):
+        if s[i]-ep >= d:
+            cnt += 1
+            ep = s[i]
     return cnt
 
 
@@ -25,10 +32,9 @@ r = s[-1]
 res = 0
 while l <= r:
     mid = (l+r)//2
-    print(Check(mid))
-    if Check(mid) < c:
+    if Check(mid) >= c:
         res = mid
-        r = mid - 1
-    else:
         l = mid + 1
+    else:
+        r = mid - 1
 print(res)
