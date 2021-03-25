@@ -1,21 +1,27 @@
 import sys
-sys.stdin = open('Inflearn/in1.txt', 'r')
+sys.stdin = open('Inflearn/in5.txt', 'r')
 k, n = map(int, input().split())
 wire = [int(input()) for _ in range(k)]
 wire.sort()
-
-
-def binary_search(s, e):
-    mid = (e+s)//2
+l = 1
+r = wire[-1]
+res = 0
+while l <= r:
+    mid = (l+r)//2
     cnt = 0
     for x in wire:
         cnt += x//mid
-    if cnt < n:
-        binary_search(mid+1, e)
-        binary_search(s, mid-1)
     if cnt >= n:
-        return mid
-    return 0
+        res = mid
+        l = mid + 1
+    else:
+        r = mid - 1
+print(res)
 
-
-binary_search(1, wire[-1])
+'''
+def Count(len):
+    cnt = 0
+    for x in wire:
+        cnt += x//len
+    return cnt
+'''
