@@ -4,8 +4,7 @@ from collections import deque
 sys.stdin = open('Inflearn/in5.txt', 'r')
 
 n, m = map(int, input().split())
-p = deque((pos, val)
-          for pos, val in enumerate(list(map(int, input().split()))))
+p = deque((pos, val) for pos, val in enumerate(list(map(int, input().split()))))
 t = p[m][1]
 cnt = 0
 
