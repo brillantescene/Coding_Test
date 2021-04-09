@@ -10,8 +10,9 @@ while True:
         break
     if not x:
         if a:
-            print(hq.heappop(a))  # 루트 노드 값 pop
+            print(-hq.heappop(a))  # 루트 노드 값 pop
         else:
             print(-1)
     else:
-        hq.heappush(a, x)  # 리스트 a에 x값 push
+        # 기본적으로 최소힙으로 동작되기 때문에 최대힙 효과를 내기 위해서 음수로 바꾸자
+        hq.heappush(a, -x)
