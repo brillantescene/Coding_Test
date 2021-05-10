@@ -2,6 +2,11 @@ import sys
 sys.stdin = open('Inflearn/in4.txt', 'r')
 input = sys.stdin.readline  # 대량 입력 시 되게 빨라짐
 
+'''
+    input = sys.stdin.readline 이걸로
+    문자열 읽으면 마지막 줄바꿈 기호까지 받아옴. 그래서 그거를 떼어줘야함
+    s = input().rstrip();
+'''
 
 def DFS(L):
     global cnt
