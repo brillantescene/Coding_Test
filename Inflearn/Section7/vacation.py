@@ -21,6 +21,5 @@ if __name__ == "__main__":
     res = -1
     for i in range(1, n+1):
         t[i], p[i] = map(int, input().split())
-    print(p)
     DFS(1, 0)
     print(res)
