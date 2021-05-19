@@ -15,7 +15,6 @@ sum = a[n//2][n//2]
 q.append((n//2, n//2))
 L = 0
 while q:
-
     if L == n//2:
         break
     size = len(q)

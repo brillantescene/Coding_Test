@@ -18,8 +18,6 @@ def DFS(L, p):
             elif i >= 10 and code[L] == i//10 and code[L+1] == i % 10:
                 res[p] = i
                 DFS(L+2, p+1)
-            # else:
-            #     DFS(L+1, p)
 
 
 if __name__ == "__main__":
