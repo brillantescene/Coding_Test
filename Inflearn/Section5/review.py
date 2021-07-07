@@ -1,4 +1,5 @@
 # 2. 쇠막대기
+'''
 def solution(pipe):
     answer = 0
     stack = []
@@ -21,3 +22,50 @@ print(solution('()(((()())(())()))(())'))
 print(solution('(((()(()()))(())()))(()())'))
 print(solution('(((()(()()))(())()))(()())(((()(()()))(())()))(()())'))
 print(solution('(((()(()()))(())()))(()())(((()(()()))(())()))(()())(((()())))(((()(()()))(())()))(()())(((()(()()))(())()))(()())(((()())))(((()(()()))(())()))(()())(((()(()()))(())()))(()())(((()())))(((()(()()))(())()))(()())(((()(()()))(())()))(()())(((()())))(((()(()()))(())()))(()())(((()(()()))(())()))(()())(((()())))(((()(()()))(())()))(()())(((()(()()))(())()))(()())(((()())))'))
+'''
+# 3. 후위 표기식
+
+'''
+def solution(infix):
+    postfix = []
+    op = []
+
+    for x in infix:
+        if x.isdigit():
+            postfix.append(x)
+        else:
+            if op:
+                if x in ['+', '-']:
+                    while op and op[-1] in ['+', '-', '*', '/']:
+                        postfix.append(op.pop())
+                    op.append(x)
+
+                elif x in ['*', '/']:
+                    while op and op[-1] in ['*', '/']:
+                        postfix.append(op.pop())
+                    op.append(x)
+
+                elif x == '(':
+                    op.append(x)
+
+                else:
+                    while True:
+                        if op[-1] == '(':
+                            op.pop()
+                            break
+                        else:
+                            postfix.append(op.pop())
+            else:
+                op.append(x)
+
+    while op:
+        postfix.append(op.pop())
+    return postfix
+
+
+# print(solution('(3+5)*2'))
+# print(solution('3*(5+2)-9'))
+# print(solution('5+7*3-5+(3+2*3)'))
+# print(solution('5+8+6*5-(3+2)-7*3-5+(3+2*3)'))
+print(solution('5+8+6*5-(3+2)-7*3-5+(3+2*3)+(5+3+2-5*2)+3'))
+'''
