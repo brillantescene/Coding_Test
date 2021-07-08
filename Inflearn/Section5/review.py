@@ -175,20 +175,51 @@ def solution(ness, plan):
 
 # 8. 단어찾기
 
-
+'''
 def solution(words, poem):
-    # dic = {}
-    # for word in words:
-    #     dic[word] = 0
-    # for p in poem:
-    #     dic[p] = 1
+    # 딕셔너리 사용
+    dic = {}
+    for word in words:
+        dic[word] = 0
+    for p in poem:
+        dic[p] = 1
 
+    return [x for x in dic if not dic[x]]
+
+    # 그냥 for문
     for word in words:
         if word not in poem:
             return word
 
-    # return [x for x in dic if not dic[x]]
-
-
 print(solution(['big', 'good', 'sky', 'blue', 'mouse'],
                ['sky', 'good', 'mouse', 'big']))
+'''
+
+# 9. 아나그램
+'''
+from collections import defaultdict
+def solution(str1, str2):
+
+    # defaultdict 사용
+    dic = defaultdict(int)
+    for s in str1:
+        dic[s] += 1
+    for s in str2:
+        dic[s] -= 1
+
+    return "YES" if all(dic[x] == 0 for x in dic) else "NO"
+
+    # 사용 안할 때
+    dic = {}
+    for s in str1:
+        dic[s] = dic.get(s, 0)+1
+    for s in str2:
+        dic[s] = dic.get(s, 0)-1
+
+    return "YES" if all(dic[x] == 0 for x in dic) else "NO"
+
+
+print(solution('AbaAeCe', 'baeeACA'))
+print(solution('ABCDqtqtqEFqGHIJKLMNOPQRSTUVWetagdgXYabcdefghijklmnopqrstuwxyz',
+               'aBcdewrqwtqFghIJklMnOpqrsTuegagaeVxyYAbCDEfGHijKLmNoPQRStUwWXz'))
+'''
