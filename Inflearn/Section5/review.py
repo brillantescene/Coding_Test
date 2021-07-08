@@ -1,4 +1,4 @@
-
+from collections import deque
 # 2. 쇠막대기
 '''
 def solution(pipe):
@@ -119,4 +119,28 @@ def solution(n, k):
 # print(solution(8, 3))
 # print(solution(20, 3))
 print(solution(1000, 9))
+'''
+
+# 6. 응급실
+'''
+from collections import deque
+
+def solution(m, p):
+    q = deque([(idx, x) for idx, x in enumerate(p)])
+    cnt = 0
+    while q:
+        patient = q.popleft()
+        if any(patient[1] < x[1] for x in q):
+            q.append(patient)
+        else:
+            if patient[0] == m:
+                return cnt+1
+            else:
+                cnt += 1
+
+
+# print(solution(2, [60, 50, 70, 80, 90]))
+# print(solution(5, [63, 53, 87, 91, 83, 72,
+#                    83, 92, 63, 68, 88, 74, 51, 82, 89]))
+print(solution(0, [60, 60, 90, 60, 60, 60]))
 '''
