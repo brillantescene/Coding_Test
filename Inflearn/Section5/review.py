@@ -1,3 +1,4 @@
+
 # 2. 쇠막대기
 '''
 def solution(pipe):
@@ -72,7 +73,7 @@ print(solution('5+8+6*5-(3+2)-7*3-5+(3+2*3)+(5+3+2-5*2)+3'))
 
 # 4. 후위식 연산
 
-
+'''
 def solution(postfix):
     stk = []
     for x in postfix:
@@ -94,5 +95,28 @@ def solution(postfix):
 
 # print(solution([3, 5, 2, '+', '*', 9, '-']))
 print(solution([5, 7, 3, '*', '+', 5, '-', 3, 2, 3, '*', '+', '+']))
-# print(solution(''))
-# print(solution(''))
+'''
+
+# 5. 공주구하기
+
+'''
+from collections import deque
+
+def solution(n, k):
+    q = deque([i for i in range(1, n+1)])
+
+    cnt = 0
+    while len(q) > 1:
+        cnt += 1
+        if cnt == k:
+            q.popleft()
+            cnt = 0
+        else:
+            q.append(q.popleft())
+    return q[0]
+
+
+# print(solution(8, 3))
+# print(solution(20, 3))
+print(solution(1000, 9))
+'''
