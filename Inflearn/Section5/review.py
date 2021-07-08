@@ -172,3 +172,23 @@ def solution(ness, plan):
 # print(solution(['A', 'K', 'D', 'E', 'F'], ['AYKGDHEJ',
 #                                            'AQKWDERTFYP', 'CTFKSBDEA', 'ASKGHDEF', 'WOPASFKGHDEF']))
 '''
+
+# 8. 단어찾기
+
+
+def solution(words, poem):
+    # dic = {}
+    # for word in words:
+    #     dic[word] = 0
+    # for p in poem:
+    #     dic[p] = 1
+
+    for word in words:
+        if word not in poem:
+            return word
+
+    # return [x for x in dic if not dic[x]]
+
+
+print(solution(['big', 'good', 'sky', 'blue', 'mouse'],
+               ['sky', 'good', 'mouse', 'big']))
