@@ -223,3 +223,48 @@ print(solution('AbaAeCe', 'baeeACA'))
 print(solution('ABCDqtqtqEFqGHIJKLMNOPQRSTUVWetagdgXYabcdefghijklmnopqrstuwxyz',
                'aBcdewrqwtqFghIJklMnOpqrsTuegagaeVxyYAbCDEfGHijKLmNoPQRStUwWXz'))
 '''
+
+# 10. 최소힙
+
+'''
+def solution(nums):
+    answer = [0]
+    idx = 0
+    for num in nums:
+        if num == 0:
+            if len(answer) == 0:
+                print(-1)
+            else:
+                print(answer.pop(1))
+                idx -= 1
+        else:
+            answer.append(num)
+            idx += 1
+            if idx > 1:
+                tmp = idx
+                while tmp > 0:
+                    if answer[tmp//2] > answer[tmp]:
+                        answer[tmp//2], answer[tmp] = answer[tmp], answer[tmp//2]
+                    tmp = tmp//2
+    return answer
+'''
+# heapq 라이브러리
+
+
+
+
+import heapq as hq
+def solution(nums):
+    answer = []
+    for num in nums:
+        if num == 0:
+            if len(answer) == 0:
+                print(-1)
+            else:
+                print(hq.heappop(answer))
+        else:
+            hq.heappush(answer, num)
+    return answer
+
+
+print(solution([5, 3, 6, 0, 5, 0, 2, 4, 0]))
