@@ -1,4 +1,3 @@
-from collections import deque
 # 2. 쇠막대기
 '''
 def solution(pipe):
@@ -143,4 +142,33 @@ def solution(m, p):
 # print(solution(5, [63, 53, 87, 91, 83, 72,
 #                    83, 92, 63, 68, 88, 74, 51, 82, 89]))
 print(solution(0, [60, 60, 90, 60, 60, 60]))
+'''
+
+# 7. 교육과정 설계
+
+'''
+from collections import deque
+def solution(ness, plan):
+    answer = []
+    for p in plan:
+        n = deque(ness)
+        print(p)
+        for x in p:
+            if x in n:
+                if x == n[0]:
+                    n.popleft()
+                else:
+                    answer += ['NO']
+                    break
+        else:
+            if not n:
+                answer += ['YES']
+            else:
+                answer += ['NO']
+    return answer
+
+
+# print(solution(['C', 'B', 'A'], ['CBDAGE', 'FGCDAB', 'CTSBDEA']))
+# print(solution(['A', 'K', 'D', 'E', 'F'], ['AYKGDHEJ',
+#                                            'AQKWDERTFYP', 'CTFKSBDEA', 'ASKGHDEF', 'WOPASFKGHDEF']))
 '''
